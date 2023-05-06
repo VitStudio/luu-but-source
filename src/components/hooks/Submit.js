@@ -121,7 +121,7 @@ const Submit = ({
             </Typography>
             <Box sx={{ pl: 1, pr: 1 }}>
               {!onDevelopmentEnv && <HCaptcha
-                sitekey="site-key-cua-ban"
+                sitekey="2dd657a9-7c67-45e7-ba22-6094d711cfc1"
                 onVerify={(token, ekey) => {
                   setAuthen(true);
                 }}
