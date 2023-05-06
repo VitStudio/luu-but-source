@@ -69,8 +69,8 @@ const Submit = ({
     //email về email
     if (!onDevelopmentEnv) {
       emailjs.send(
-        "service_key",
-        "template_key",
+        "service_oci1xgm",
+        "template_zsa3mbe",
         {
           name: { data }.data.name,
           date_day: { time }.time.day,
